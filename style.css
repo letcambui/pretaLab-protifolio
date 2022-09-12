@@ -5,7 +5,8 @@
 }
 
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 li {
@@ -36,6 +37,7 @@ li {
     display: flex;
     justify-content: space-evenly;
     width: 50%;
+    align-items: center;
 }
 
 .lista-menu li>a {
@@ -51,9 +53,12 @@ li {
 
 }
 
+
+
 .subcontainer-principal {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
 }
@@ -61,10 +66,12 @@ li {
 .container {
     margin-right: auto;
     margin-left: auto;
+    margin-top: 200px;
     max-width: 960px;
     padding-right: 10px;
     padding-left: 10px;
     width: 100%;
+   
 
 }
 .nome-completo {
@@ -77,6 +84,7 @@ li {
 
 .profissao {
     color: #c6b5d5;
+    height: 60px;
     line-height: 32px;
 }
 
@@ -122,13 +130,51 @@ li {
     font-weight: 300;
 
 }
+
+
 .lista-item ul li {
     margin-bottom: 32px;
 
 }
 
-.wrapper-protifolio{
+.wrapper-portifolio{
     background-color: #EAEAEA;
     display: flex;
     flex-direction: column;
+}
+
+.container-footer {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+ 
+}
+
+.footer {
+    background-color: #724796;
+    height: 550px;
+    display: flex;
+    align-items: center;
+}
+
+.estilo-icon {
+    font-size: 32px;
+    margin-right: 10px;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+}
+
+.lista-footer li {
+    color: #FFF;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
 }
