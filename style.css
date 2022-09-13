@@ -96,8 +96,8 @@ li {
 .section-lista{
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    /* margin-top: 60px; */
+    margin-bottom: 200px;
 }
 
 .topico-principal {
@@ -129,6 +129,12 @@ li {
     color: #828282;
     font-weight: 300;
 
+}
+
+.formacao {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
 }
 
 
